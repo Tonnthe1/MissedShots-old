@@ -1,0 +1,198 @@
+.home {
+  position: absolute;
+  top: -4px;
+  left: calc(50% - 141.5px);
+}
+.displaybox,
+.displaybox1,
+.displaybox2,
+.displaybox3,
+.displaybox4,
+.displaybox5,
+.displaybox6,
+.displaybox7 {
+  position: absolute;
+  top: 28.5px;
+  left: -1.5px;
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 275px;
+  height: 42px;
+}
+.displaybox1,
+.displaybox2,
+.displaybox3,
+.displaybox4,
+.displaybox5,
+.displaybox6,
+.displaybox7 {
+  top: 104.5px;
+}
+.displaybox2,
+.displaybox3,
+.displaybox4,
+.displaybox5,
+.displaybox6,
+.displaybox7 {
+  top: 180.5px;
+}
+.displaybox3,
+.displaybox4,
+.displaybox5,
+.displaybox6,
+.displaybox7 {
+  top: 256.5px;
+}
+.displaybox4,
+.displaybox5,
+.displaybox6,
+.displaybox7 {
+  top: 332.5px;
+}
+.displaybox5,
+.displaybox6,
+.displaybox7 {
+  top: 408.5px;
+}
+.displaybox6,
+.displaybox7 {
+  top: 484.5px;
+}
+.displaybox7 {
+  top: 560.5px;
+}
+.github,
+.instagram,
+.linkedin,
+.twitter,
+.whatsappPhoneNumber {
+  position: absolute;
+  top: calc(50% - 300.5px);
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 260px;
+}
+.github,
+.instagram,
+.twitter,
+.whatsappPhoneNumber {
+  top: calc(50% - 224.5px);
+}
+.github,
+.instagram,
+.twitter {
+  top: calc(50% - 148.5px);
+}
+.github,
+.twitter {
+  top: calc(50% - 72.5px);
+}
+.github {
+  top: calc(50% + 3.5px);
+}
+.facebook {
+  position: absolute;
+  top: calc(50% + 79.5px);
+}
+.facebook,
+.wechat,
+.youtube {
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 260px;
+}
+.wechat {
+  position: absolute;
+  top: calc(50% + 155.5px);
+}
+.youtube {
+  top: calc(50% + 231.5px);
+}
+.home1,
+.home2,
+.youtube {
+  position: absolute;
+}
+.home1 {
+  top: calc(50% - 23.3px);
+  left: calc(50% - 85.5px);
+  background-color: var(--rice-white);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 171px;
+  height: 46.6px;
+}
+.home2 {
+  top: calc(50% - 25px);
+  left: calc(50% - 75.5px);
+  font-size: var(--font-size-3xl);
+  display: flex;
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 152px;
+  height: 50px;
+}
+.backToEvent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 582px;
+  left: 50px;
+  width: 171px;
+  height: 120px;
+}
+.displaybox8 {
+  top: -48.5px;
+  left: -1.5px;
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 275px;
+  height: 42px;
+}
+.displaybox8,
+.email,
+.textBox {
+  position: absolute;
+}
+.email {
+  top: calc(50% - 377.5px);
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 260px;
+}
+.textBox {
+  top: 265px;
+  left: calc(50% - 141.5px);
+  width: 272px;
+  height: 601px;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--the-black);
+}
+.personalInfoPageChild {
+  position: absolute;
+  top: 58px;
+  left: calc(50% - 66.5px);
+  width: 121px;
+  height: 121px;
+  object-fit: cover;
+}
+.personalInfoPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--rice-white);
+  height: 852px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: 49px;
+  color: var(--black);
+  font-family: var(--font-crimson-text);
+}

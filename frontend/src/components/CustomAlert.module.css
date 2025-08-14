@@ -1,0 +1,60 @@
+.alertContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    z-index: 1000;
+    pointer-events: none;
+  }
+  
+  .alert {
+    padding: 12px;
+    border-radius: 4px;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    pointer-events: auto;
+  }
+  
+  .error {
+    background-color: #fde8e8;
+    border: 1px solid #f8b4b4;
+    color: #9b1c1c;
+  }
+  
+  .success {
+    background-color: #e6fffa;
+    border: 1px solid #84e1bc;
+    color: #046c4e;
+  }
+  
+  .info {
+    background-color: #e1effe;
+    border: 1px solid #a4cafe;
+    color: #1e429f;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 24px;
+  }
+  
+  .message {
+    font-size: 18px;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: inherit;
+  }

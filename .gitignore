@@ -1,0 +1,47 @@
+# Node.js / React 前端
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/dist/
+frontend/build/
+frontend/.turbo/
+frontend/coverage/
+frontend/yarn.lock
+frontend/package-lock.json
+
+# Python 后端
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/venv/
+backend/env/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.DS_Store
+backend/.idea/
+backend/.vscode/
+
+# macOS
+.DS_Store
+
+# 备份文件
+*.swp
+*~
+
+# 日志文件
+*.log
+
+# Docker
+*.pid
+
+# 操作系统
+Thumbs.db
+
+# Git
+.git/
+
+# VSCode 配置
+.vscode/
+
+# Jupyter
+*.ipynb_checkpoints

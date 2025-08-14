@@ -1,0 +1,216 @@
+.bigEmail {
+  position: absolute;
+  top: calc(50% - 52px);
+  left: calc(50% - 141.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 286px;
+  height: 103px;
+}
+.frame {
+  position: absolute;
+  top: calc(50% + 12px);
+  left: calc(50% - 142.5px);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--silver);
+  box-sizing: border-box;
+  width: 285px;
+  height: 45px;
+}
+.bigPassword,
+.email1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.email1 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  top: calc(50% + 19px);
+  left: calc(50% - 131.5px);
+  color: var(--color-gray-100);
+  text-align: left;
+  width: 263px;
+  height: 30px;
+}
+.bigPassword {
+  bottom: 21px;
+  left: calc(50% - 143.5px);
+  justify-content: center;
+  width: 286px;
+  height: 78px;
+}
+.frame1 {
+  position: absolute;
+  bottom: 2px;
+  left: calc(50% - 142.5px);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--silver);
+  box-sizing: border-box;
+  width: 285px;
+  height: 45px;
+}
+.password1 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 18.5px);
+  left: calc(50% - 130.5px);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 263px;
+  height: 24px;
+}
+.email,
+.password {
+  position: absolute;
+  left: calc(50% - 161.5px);
+  width: 323px;
+}
+.password {
+  top: calc(50% + 48px);
+  height: 111px;
+}
+.email {
+  top: 234px;
+  height: 114px;
+}
+.bigName {
+  top: calc(50% - 56px);
+  left: calc(50% - 142.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 286px;
+  height: 103px;
+}
+.bigName,
+.name,
+.realName {
+  position: absolute;
+}
+.name {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  top: calc(50% + 23px);
+  left: calc(50% - 131.5px);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 263px;
+  height: 23px;
+}
+.realName {
+  top: 142px;
+  left: calc(50% - 161.5px);
+  width: 323px;
+  height: 114px;
+  font-size: 66px;
+}
+.signInIcon,
+.signUp1 {
+  position: absolute;
+  top: 6px;
+  left: calc(50% - 61.9px);
+  width: 123.8px;
+  height: 46.4px;
+}
+.signUp1 {
+  top: 0;
+  left: calc(50% - 51.5px);
+  font-size: var(--font-size-7xl);
+  font-weight: 600;
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 58px;
+}
+.signInParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 527px;
+  left: calc(50% - 61.5px);
+  width: 123.8px;
+  height: 58px;
+}
+.home,
+.signInParent,
+.signUp2 {
+  position: absolute;
+}
+.signUp2 {
+  top: 0;
+  left: calc(50% - 230.5px);
+  font-size: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 462px;
+  height: 97px;
+}
+.home {
+  top: 1.3px;
+  left: calc(50% - 142px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--nero);
+  border: 1px solid var(--silver);
+  box-sizing: border-box;
+  width: 284px;
+  height: 35.4px;
+}
+.backToEvent,
+.home1 {
+  position: absolute;
+  height: 38px;
+}
+.home1 {
+  top: 0;
+  left: calc(50% - 111.1px);
+  font-size: 21px;
+  display: flex;
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 222.3px;
+}
+.backToEvent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 471px;
+  left: calc(50% - 142.5px);
+  width: 284px;
+}
+.signUp {
+  width: 100%;
+  position: relative;
+  background-color: var(--rice-white);
+  height: 852px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-50xl);
+  color: var(--black);
+  font-family: var(--font-crimson-text);
+}

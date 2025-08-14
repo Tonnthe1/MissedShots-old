@@ -1,0 +1,302 @@
+.emailDisplay {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-7xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 17.5px);
+  left: calc(50% - 165px);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 276px;
+}
+.email {
+  position: absolute;
+  top: 127.5px;
+  left: calc(50% - 178px);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 357px;
+  height: 54px;
+}
+.newPassword1 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-7xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 17.5px);
+  left: calc(50% - 165px);
+  color: var(--boulder);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 276px;
+}
+.checkmark641Icon {
+  position: absolute;
+  top: calc(50% - 19.5px);
+  left: 12px;
+  width: 36px;
+  height: 38px;
+  object-fit: cover;
+}
+.checkMark,
+.checkMark1,
+.newPassword {
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  height: 54px;
+}
+.checkMark {
+  position: absolute;
+  top: calc(50% - 27px);
+  left: calc(50% + 117.5px);
+  width: 61px;
+}
+.checkMark1,
+.newPassword {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+.newPassword {
+  position: absolute;
+  top: 192.5px;
+  left: calc(50% - 178px);
+  width: 357px;
+}
+.checkMark1 {
+  top: 127.5px;
+  left: calc(50% + 118px);
+  width: 61px;
+}
+.checkMark1,
+.home,
+.home1 {
+  position: absolute;
+}
+.home {
+  top: 0;
+  left: calc(50% - 92px);
+  background-color: var(--rice-white);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 184px;
+  height: 46px;
+}
+.home1 {
+  top: calc(50% - 25px);
+  left: calc(50% - 72px);
+  font-size: var(--font-size-3xl);
+  display: flex;
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 144px;
+  height: 50px;
+}
+.backToHome {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 91.5px);
+  width: 184px;
+  height: 46px;
+}
+.toggleToMake {
+  position: absolute;
+  top: 262px;
+  left: calc(50% - 149.5px);
+}
+.linkedin,
+.linkedin2 {
+  position: absolute;
+  top: 343.5px;
+  left: calc(50% - 178px);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 275px;
+  height: 42px;
+}
+.linkedin2 {
+  top: 290.5px;
+}
+.whatsappPhoneNumber {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-4xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 15.5px);
+  left: 12px;
+  color: var(--boulder);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 249px;
+}
+.linkedin3 {
+  position: absolute;
+  top: 396.5px;
+  left: calc(50% - 178px);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 275px;
+  height: 42px;
+}
+.instagram {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-4xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 15.5px);
+  left: 12px;
+  color: var(--boulder);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 248px;
+}
+.linkedin4 {
+  position: absolute;
+  top: 449.5px;
+  left: calc(50% - 178px);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 275px;
+  height: 42px;
+}
+.twitter {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-crimson-text);
+  font-size: var(--font-size-4xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 15.5px);
+  left: 12px;
+  color: var(--boulder);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 247px;
+}
+.linkedin5,
+.linkedin6,
+.linkedin7,
+.linkedin8,
+.linkedin9 {
+  position: absolute;
+  top: 502.5px;
+  left: calc(50% - 178px);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 275px;
+  height: 42px;
+}
+.linkedin6,
+.linkedin7,
+.linkedin8,
+.linkedin9 {
+  top: 555.5px;
+}
+.linkedin7,
+.linkedin8,
+.linkedin9 {
+  top: 608.5px;
+}
+.linkedin8,
+.linkedin9 {
+  top: 661.5px;
+}
+.linkedin9 {
+  top: 714.5px;
+}
+.toggleIcon {
+  position: absolute;
+  top: 292px;
+  left: calc(50% + 108.5px);
+  border-radius: var(--br-9xl);
+  width: 69px;
+  height: 39px;
+}
+.toggleIcon1,
+.toggleIcon2,
+.toggleIcon3,
+.toggleIcon4,
+.toggleIcon5,
+.toggleIcon6,
+.toggleIcon7,
+.toggleIcon8 {
+  position: absolute;
+  top: 345px;
+  left: calc(50% + 108.5px);
+  border-radius: var(--br-9xl);
+  width: 69px;
+  height: 39px;
+}
+.toggleIcon2,
+.toggleIcon3,
+.toggleIcon4,
+.toggleIcon5,
+.toggleIcon6,
+.toggleIcon7,
+.toggleIcon8 {
+  top: 398px;
+}
+.toggleIcon3,
+.toggleIcon4,
+.toggleIcon5,
+.toggleIcon6,
+.toggleIcon7,
+.toggleIcon8 {
+  top: 451px;
+}
+.toggleIcon4,
+.toggleIcon5,
+.toggleIcon6,
+.toggleIcon7,
+.toggleIcon8 {
+  top: 504px;
+}
+.toggleIcon5,
+.toggleIcon6,
+.toggleIcon7,
+.toggleIcon8 {
+  top: 557px;
+}
+.toggleIcon6,
+.toggleIcon7,
+.toggleIcon8 {
+  top: 610px;
+}
+.toggleIcon7,
+.toggleIcon8 {
+  top: 663px;
+}
+.toggleIcon8 {
+  top: 716px;
+}
+.myAccount {
+  width: 100%;
+  position: relative;
+  background-color: var(--rice-white);
+  height: 852px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 21.6px;
+  color: var(--black);
+  font-family: var(--font-crimson-text);
+}

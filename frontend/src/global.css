@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-crimson-text: "Crimson Text";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-129xl: 148px;
+  --font-size-18xl: 37px;
+  --font-size-5xl: 24px;
+  --font-size-7xl: 26px;
+  --font-size-50xl: 69px;
+  --font-size-7xl-3: 26.3px;
+  --font-size-base-4: 16.4px;
+  --font-size-base-9: 15.9px;
+  --font-size-15xl: 34px;
+  --font-size-38xl: 57px;
+  --font-size-3xl: 22px;
+  --font-size-4xl: 23px;
+  --font-size-10xl: 29px;
+
+  /* Colors */
+  --rice-white: #f1f1f1;
+  --black: #000;
+  --boulder: #767676;
+  --color-gray-100: #757575;
+  --the-black: rgba(0, 0, 0, 0.81);
+  --color-gray-200: rgba(255, 255, 255, 0.99);
+  --silver: #ccc;
+  --nero: #fff;
+  --emperor: #555;
+
+  /* Gaps */
+  --gap-lgi: 19px;
+
+  /* Paddings */
+  --padding-12xs-8: 0.8px;
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-9xl: 28px;
+  --br-52xl: 71px;
+  --br-7xs: 6px;
+}

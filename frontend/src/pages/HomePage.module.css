@@ -1,0 +1,141 @@
+.frame {
+  position: absolute;
+  top: calc(50% - 34px);
+  left: calc(50% - 141px);
+  background-color: var(--rice-white);
+  border: 4px solid var(--black);
+  box-sizing: border-box;
+  width: 281px;
+  height: 66px;
+  cursor: pointer;
+}
+.searchEvent {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 96px);
+  font-size: var(--font-size-18xl);
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+}
+.seachEvent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 150.5px);
+  left: calc(50% - 139.5px);
+  width: 280px;
+  height: 60px;
+}
+.frame1 {
+  position: absolute;
+  top: calc(50% - 34px);
+  left: calc(50% - 140.5px);
+  background-color: var(--rice-white);
+  border: 4px solid var(--black);
+  box-sizing: border-box;
+  width: 281px;
+  height: 66px;
+}
+.myEvents1 {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 78.5px);
+  font-size: var(--font-size-18xl);
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+}
+.myEvents {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 68.5px);
+  left: calc(50% - 139.5px);
+  width: 279px;
+  height: 60px;
+}
+.myAccount {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 90px);
+  font-size: var(--font-size-18xl);
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+}
+.frame3,
+.myAccounts {
+  position: absolute;
+  cursor: pointer;
+}
+.myAccounts {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: calc(50% + 13.5px);
+  left: calc(50% - 139.5px);
+  width: 280px;
+  height: 60px;
+}
+.frame3 {
+  top: calc(50% - 34px);
+  left: calc(50% - 140.5px);
+  background-color: var(--rice-white);
+  border: 4px solid var(--black);
+  box-sizing: border-box;
+  width: 281px;
+  height: 66px;
+}
+.logOut1 {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 56.5px);
+  font-size: var(--font-size-18xl);
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+}
+.logOut {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 95.5px);
+  left: calc(50% - 139.5px);
+  width: 281px;
+  height: 60px;
+}
+.home,
+.seachEventParent {
+  position: absolute;
+  top: 178px;
+  left: calc(50% - 161.5px);
+  width: 323px;
+  height: 345px;
+}
+.home {
+  top: 7px;
+  left: calc(50% - 188.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 376px;
+  height: 98px;
+}
+.homePage {
+  width: 100%;
+  position: relative;
+  background-color: var(--rice-white);
+  height: 852px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-129xl);
+  color: var(--black);
+  font-family: var(--font-crimson-text);
+}

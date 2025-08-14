@@ -1,0 +1,189 @@
+.eventName {
+  align-self: stretch;
+  position: relative;
+}
+.home,
+.home1 {
+  position: absolute;
+}
+.home {
+  top: calc(50% - 23.3px);
+  left: calc(50% - 85.5px);
+  background-color: var(--rice-white);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  width: 171px;
+  height: 46.6px;
+}
+.home1 {
+  top: calc(50% - 25px);
+  left: calc(50% - 75.5px);
+  font-size: var(--font-size-3xl);
+  display: flex;
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 152px;
+  height: 50px;
+}
+.backToEvent,
+.home2 {
+  position: absolute;
+  width: 171px;
+}
+.backToEvent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  height: 50px;
+}
+.home2 {
+  top: calc(50% - 23px);
+  left: calc(50% - 85.5px);
+  background-color: var(--rice-white);
+  border: 3px solid var(--black);
+  box-sizing: border-box;
+  height: 46px;
+}
+.home3,
+.myQrCode {
+  position: absolute;
+  height: 50px;
+}
+.home3 {
+  top: calc(50% - 25px);
+  left: calc(50% - 71.5px);
+  font-size: var(--font-size-3xl);
+  display: flex;
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 144px;
+}
+.myQrCode {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 185px;
+  width: 171px;
+}
+.button {
+  width: 356px;
+  position: relative;
+  height: 50px;
+  flex-shrink: 0;
+}
+.topBar {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--rice-white);
+  height: 104px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 0;
+  font-size: 33px;
+  color: var(--boulder);
+}
+.eventChild {
+  width: 121px;
+  position: relative;
+  height: 121px;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.metNameAt {
+  position: relative;
+  z-index: 2;
+}
+.personChild {
+  position: absolute;
+  top: 71px;
+  left: 85px;
+  width: 121px;
+  height: 121px;
+  object-fit: cover;
+}
+.metNameAt1,
+.right2641Icon {
+  position: absolute;
+  top: 196px;
+  left: 0;
+}
+.right2641Icon {
+  top: 0;
+  left: 114px;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+.person {
+  width: 291px;
+  position: relative;
+  height: 244px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.right2641Icon1 {
+  width: 64px;
+  position: relative;
+  height: 64px;
+  object-fit: contain;
+}
+.personItem {
+  width: 121px;
+  height: 121px;
+  object-fit: cover;
+}
+.metNameAt2,
+.personItem {
+  position: relative;
+}
+.person1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  z-index: 4;
+}
+.person2 {
+  width: 291px;
+  position: absolute;
+  margin: 0 !important;
+  top: 814px;
+  left: calc(50% - 145.5px);
+  height: 244px;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.event {
+  width: 100%;
+  position: relative;
+  background-color: var(--rice-white);
+  height: 852px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  text-align: center;
+  font-size: var(--font-size-18xl);
+  color: var(--black);
+  font-family: var(--font-crimson-text);
+}

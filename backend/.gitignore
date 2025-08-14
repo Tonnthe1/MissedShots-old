@@ -1,0 +1,158 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtualenv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+htmlcov/
+.tox/
+.test/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VSCode
+.vscode/
+.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# SQLite, other DBs
+*.sqlite3
+*.db
+*.db-journal
+*.bak
+*.sql
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+Dockerfile.*
+
+# Node.js / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+.next/
+out/
+build/
+dist/
+
+# Parcel-bundler cache (frontend)
+.cache/
+
+# Next.js
+.next/
+out/
+
+# Static build
+build/
+dist/
+
+# Others you may want
+*.pem
+*.key
+*.crt
+
+# Editor backup files
+*.swp
+*.swo
+*~
+
+# Ignore local config
+local_settings.py
+
+# Ignore Python Wheel
+*.whl
+
+# Ignore coverage reports
+htmlcov/
+coverage.xml
+*.cover
+
+# Ignore test result
+junit*.xml
+
+# Ignore celery beat schedule files
+celerybeat-schedule
+celerybeat.pid
+
+# Ignore poetry
+poetry.lock
+
+# Ignore pyre
+.pyre/
+
+# Ignore Sphinx documentation
+docs/_build/
+
+# Ignore bandit security reports
+bandit_report.json
+
+# Custom:
+# Add your own custom ignore rules below
+
